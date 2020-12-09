@@ -1,0 +1,111 @@
+body{
+    background-color:rgb(245, 247, 255);
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+  }
+  
+  h1{font-family: 'Fantasy', 'Copperplate'; font-size: 15px;
+  }
+  h2{font-family: 'Sans-serif', 'Verdana'; font-size:18px;}
+  
+  div#header {
+    background-color: white;
+    border: solid #406ea5 2px;
+    /*padding-left: 20px;*/
+    margin: 30px;
+    text-align: center;
+  }
+  
+  /*this is where all the links to my pages go */
+  
+  div#nav1 {
+    /*background-color: orange;*/
+    /*
+    border-left: black 2px;
+    border-right: black 2px;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    */
+  /*color picker*/
+    padding-left: 20%;
+    font-size:20px;
+    font-family: "微软雅黑";
+  }
+
+  div#nav2 {
+    
+    padding-left: 20%;
+    font-size:13px;
+    font-family: "微软雅黑";
+  }
+
+
+
+  
+  div#content {
+    background-color: #fff;
+    float: left;
+    width: 79%;
+    padding-left: 1%;
+  }
+  
+  div#footer {
+    /*background-color: blue;*/
+    font-size: x-small;
+    color: #808080;
+    position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 1%;
+  }
+  
+  div#sidebar {
+    width: 20%;
+    background-color:rgb(84, 98, 184);
+    float: left;
+    height: 100vh;
+  }
+  
+  img {
+     max-width: 100%;
+     height: auto;
+  
+  }
+  
+  /* unvisited link*/
+  a:link {
+    color: #2d5986;
+    text-decoration: none;
+  }
+  
+  /* unvisited link*/
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link*/
+  a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(212, 215, 255);
+  }
+  
+  /* unvisited link*/
+  a:active {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /*this is for where you don't want a link background */
+  
+  .nobackground a:hover {background-color: #e6e6e6;}
+  
+  /* this is for tablets and computer */
+  @media screen and (max-width: 3000px ) and (min-width: 1126px) {
+    div#large {display: block;}
+    div#mobile {display: none;}
+  
+  }
+ 
